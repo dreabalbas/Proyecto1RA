@@ -1,0 +1,25 @@
+﻿Compilación iniciada a las 14-Jan-15 7:08:33 PM.
+     1>Proyecto "C:\Program Files (x86)\ARToolKit\Proyecto1\Proyecto1\Proyecto1.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\Proyecto1.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt abc.c
+         abc.c
+     1>c:\program files (x86)\artoolkit\proyecto1\proyecto1\abc.c(463): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : vea la declaración de 'sprintf'
+     1>c:\program files (x86)\artoolkit\proyecto1\proyecto1\abc.c(464): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : vea la declaración de 'sprintf'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files (x86)\ARToolKit\Proyecto1\Debug\Proyecto1.exe" /NOLOGO libARd.lib libARgsub_lited.lib libARvideod.lib opengl32.lib glu32.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Proyecto1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files (x86)\ARToolKit\Proyecto1\Debug\Proyecto1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files (x86)\ARToolKit\Proyecto1\Debug\Proyecto1.lib" /MACHINE:X86 Debug\abc.obj
+     1>LINK : warning LNK4098: la biblioteca predeterminada'LIBCMTD' entra en conflicto con otras bibliotecas; use la biblioteca /NODEFAULTLIB:biblioteca
+         Proyecto1.vcxproj -> C:\Program Files (x86)\ARToolKit\Proyecto1\Debug\Proyecto1.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files (x86)\ARToolKit\Proyecto1\Debug\Proyecto1.exe;#1" /manifest Debug\Proyecto1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\Proyecto1.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\Proyecto1.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files (x86)\ARToolKit\Proyecto1\Proyecto1\Proyecto1.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.01
